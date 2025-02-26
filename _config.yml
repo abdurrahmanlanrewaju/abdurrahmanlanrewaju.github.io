@@ -25,9 +25,7 @@ author:
   avatar           : "Abdur-Rahman-Ridwan.webp"
   name             : "Abdur-Rahman Ridwan"
   pronouns         : # example: "she/her"  
-  bio              : |
-    Doctoral Researcher 
-    in Data Analytics and Society
+  bio              : "Doctoral Researcher in\nData Analytics and Society\nat the University of Manchester"
   location         : "Manchester, United Kingdom"
   employer         : "University of Manchester"
   uri              : # URL
