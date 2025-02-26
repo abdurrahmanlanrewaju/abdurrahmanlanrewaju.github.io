@@ -25,7 +25,9 @@ author:
   avatar           : "Abdur-Rahman-Ridwan.webp"
   name             : "Abdur-Rahman Ridwan"
   pronouns         : # example: "she/her"  
-  bio              : "Doctoral Researcher in Data Analytics and Society at University of Manchester"
+  bio              : |
+    Doctoral Researcher 
+    in Data Analytics and Society
   location         : "Manchester, United Kingdom"
   employer         : "University of Manchester"
   uri              : # URL
@@ -37,7 +39,7 @@ author:
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0001-7864-5616"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -50,7 +52,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
