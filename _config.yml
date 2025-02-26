@@ -6,6 +6,8 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+remote_theme: mmistakes/minimal-mistakes
+
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
@@ -239,7 +241,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -257,7 +259,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -266,7 +267,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -275,13 +275,12 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
   # _talks
   - scope:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
@@ -301,12 +300,17 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-feed
+- jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-toc
+  - jekyll-relative-links
 
 # Mimic GitHub Pages with --safe
 whitelist:
