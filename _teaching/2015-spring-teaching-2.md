@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 2"
+title: "Introduction to Statistics for Economics"
 collection: teaching
-type: "Workshop"
+type: "Tutorial"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "University of Manchester, Department"
+date: 2023-01-01
+location: "Manchester, UK"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Second teaching experience.
 
 Heading 1
 ======
