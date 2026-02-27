@@ -9,6 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
+minimal_mistakes_skin    : "default"
+minimal_mistakes_skin2   : "dark"
 title                    : "Abdur-Rahman Ridwan"
 title_separator          : "-"
 name                     : &name "Abdur-Rahman Ridwan"
